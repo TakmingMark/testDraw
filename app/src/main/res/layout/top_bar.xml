@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.markwang.testdraw.TopBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/topBar"
+
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+
+    android:visibility="visible"
+    custom:leftBackground="@drawable/a"
+    custom:leftText="left"
+
+    custom:leftTextColor="#FFFFFF"
+    custom:rightBackground="@drawable/b"
+    custom:rightText="right"
+
+    custom:rightTextColor="#F12312"
+    custom:titleName="selfDefine"
+    custom:titleTextColor="#51FFFF"
+
+    custom:titleTextSize="20dp" />
